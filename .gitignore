@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+
+# Audio files
+*.wav
+*.mp3
+*.flac
+
+# Whisper / HF cache
+.cache/
+models/
+
+# Datasets
+dev-clean/
+*.tar.gz
+*.zip
+
+# FFmpeg
+ffmpeg-*/
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+
+# Logs / temp
+*.log
+
+# Test / scratch files
+test_audio.txt
